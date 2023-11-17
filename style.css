@@ -1,0 +1,8587 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+
+footer {
+
+    position: fixed;
+    bottom: 30px;
+    right:2px;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: white;
+    width:20px;
+    height: 60px;
+  
+
+}
+footer button{
+    display: flex;
+    position: absolute;
+    right:10px;
+    align-items: center;
+    right:15px;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+
+    
+}
+footer img{
+    position: relative;
+    align-items: center;
+    right:px;
+    justify-content: center;
+    
+    
+    width: 50px;
+    padding: 0 10px;
+    
+}
+
+
+#container {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    z-index: 1001;
+    min-width: 100%;
+    position: fixed;
+    display:flex;
+    width:  100%;
+    height:90px;
+    align-items: center;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+    
+}
+
+
+
+
+
+
+#navbar-pinterest{
+    width: 100%;
+    margin: 23px;
+
+    display:flex;
+    background: white;
+
+    align-items: center;
+
+
+}
+
+#pinterest-icon {
+    display: flex;
+    align-items: center;
+    gap:9px;
+
+    
+    background: frebrick;
+}
+
+#pinterest-icon a{
+    display: flex;
+    
+}
+
+#pinterest-icon img{
+    width:30px;
+
+}
+
+#links{
+
+    justify-content: space-between;
+    display: flex;
+    
+
+}
+#link-inicio a{
+
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+
+    background: black;
+    color: white;
+    width: 80px;
+    height: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+
+#link-crear a{
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+
+    background: transparent;
+    color: black;
+    font-size:15.7x;
+    width: 80px;
+    height: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+
+
+}
+
+.finder {
+    width: 100%;
+    height: 55px;
+    background: #EEEEEE;
+    border-radius: 30px;
+    display: flex;
+
+}
+
+.finder svg{
+
+    position: relative;
+    background: #EEEEEE;
+    height: 30px;
+    top:8px;
+    left: 15px;
+    
+    
+}
+
+.finder input{
+    border: none;
+    background: #EEEEEE;
+    border-radius: 30px;
+    width: 96%;
+    height: 100%;
+    outline:no;
+    padding: 0px 20px;
+    font-size: 17px;
+
+}
+
+#btn{
+    position: relative;
+    bottom: 10px;
+   display: flex;
+   gap: 30px;
+   margin-left: 15px;
+   height: 1px;
+   
+}
+
+
+
+#content {
+
+    position: relative;
+    top: 100px;
+    width: 236 ;
+    height: 100%;
+    columns: 10 236px;
+    padding: 0px 60px;
+    overflow: hidden;
+    transition: .5s;
+
+
+
+
+}
+
+.card-image {
+
+    position: relative;
+    width: 236px ;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom:5px ;
+    break-inside: avoid;
+
+}
+
+
+.card-image img{
+
+
+    width: 100%;
+    height:100%;
+    padding: 5px 1px;
+    border-radius: 15px;
+
+
+
+}
+
+
+
+.box-hover1{
+    
+    background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 97%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+}
+
+.box-hover2{
+    background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+
+.box-hover3{
+    background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+
+
+.box-hover4{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover5{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover6{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover7{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover8{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover9{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover10{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover11{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 93%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover12{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover13{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 97.5%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover14{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover15{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover16{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover17{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover18{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover19{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover20{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover21{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover22{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover23{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover24{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover25{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover26{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover27{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover28{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover29{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover30{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover31{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover32{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover33{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover34{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover35{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover36{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover37{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover38{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover39{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover40{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover41{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover42{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 97%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover43{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 95%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover44{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover45{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover46{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover47{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover48{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover49{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover50{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover51{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 93%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover52{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover53{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 95.5%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover54{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 93%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover55{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover56{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover57{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover58{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover59{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover60{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover61{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover62{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover63{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover64{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 93%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover65{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover66{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover67{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover68{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover69{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover70{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover71{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover72{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover73{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover74{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover75{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover76{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover77{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover78{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover79{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover80{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover81{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 91%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover82{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover83{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover84{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 93%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover85{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 92%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover86{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover87{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover88{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover89{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 96%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+.box-hover90{
+     background:#00000066;
+    position: absolute;
+    top:5px;
+    width: 100%;
+    height: 97%;
+   border-radius: 15px;
+   cursor: zoom-in;
+   transition: 0ms;
+   opacity: 0;
+    
+
+}
+
+
+
+.card-image:hover .box-hover1{
+    opacity: 1;
+}
+
+.card-image:hover .box-hover2{
+    opacity: 1;
+
+}
+.card-image:hover .box-hover3{
+    opacity: 1;
+
+}
+.card-image:hover .box-hover4{
+    opacity: 1;
+
+}
+.card-image:hover .box-hover5{
+    opacity: 1;
+
+}
+.card-image:hover .box-hover6{
+    opacity: 1;
+
+}
+.card-image:hover .box-hover7{
+    opacity: 1;
+
+}
+.card-image:hover .box-hover8{
+    opacity: 1;
+
+}
+.card-image:hover .box-hover9{
+    opacity: 1;
+
+}
+.card-image:hover .box-hover10{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover11{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover12{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover13{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover14{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover15{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover16{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover17{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover18{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover19{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover20{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover21{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover22{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover23{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover24{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover25{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover26{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover27{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover28{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover29{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover30{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover31{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover32{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover33{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover34{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover35{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover36{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover37{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover38{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover39{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover40{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover41{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover42{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover43{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover44{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover45{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover46{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover47{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover48{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover49{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover50{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover51{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover52{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover53{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover54{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover55{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover56{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover57{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover58{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover59{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover60{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover61{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover62{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover63{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover64{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover65{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover66{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover67{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover68{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover69{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover70{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover71{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover72{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover73{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover74{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover75{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover76{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover77{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover78{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover79{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover80{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover81{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover82{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover83{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover84{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover85{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover86{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover87{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover88{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover89{
+    opacity: 1;
+
+}
+ .card-image:hover .box-hover90{
+    opacity: 1;
+
+}
+
+.btn-guardar {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  1 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:330px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 375px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover1 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  1 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+.btn-guardar2 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  2 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share2 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:230px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options2 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 275px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover2 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  2 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+.btn-guardar3 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  3 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share3 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:265px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options3 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover3 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  3 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+.btn-guardar4 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  4 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share4 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:330px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options4 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 375px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover4 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  4 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar5 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  5 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share5 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:265px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options5 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover5 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  5 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+.btn-guardar6 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  6 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share6 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:330px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options6 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 374px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover6 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  6 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+.btn-guardar7 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  7 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share7 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:230px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options7 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 275px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover7 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  7 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+.btn-guardar8 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  8 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share8 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:265px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options8 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover8 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  8 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+.btn-guardar9 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  9 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share9 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:350px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options9 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 395px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover9 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  9 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+.btn-guardar10 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  10 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share10 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:330px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options10 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 374px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover10 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  10 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar11 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  11 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share11 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:70px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options11 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 115px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover11 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  11 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar12 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  12 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share12 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:205px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options12 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover12 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  12  ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar13 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  13 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share13 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:435px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options13 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 480px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover13 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  13 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar14 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  14 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share14 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:325px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options14 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 370px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover14 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  14 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar15 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  15 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share15 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:207px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options15 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 252px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover15 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  15 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar16 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  16 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share16 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:265px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options16 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover16 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  16 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+.btn-guardar17 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  17 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share17 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:254px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options17 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 299px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover17 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  17 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar18 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  18 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share18 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:330px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options18 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 375px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover18 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  4 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar19 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  19 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share19 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:155px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options19 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 199px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover19 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  19 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar20 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  20 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share20 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:190px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options20 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 235px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover20 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  20 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+.btn-guardar21 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  21 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share21 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:383px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options21 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 428px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover21 img{
+
+    width: 30px;
+    height: 30px;
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  21 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+}
+
+
+
+
+
+
+
+
+
+
+.btn-guardar22 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  22 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share22 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options22 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover22 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  22 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+.btn-guardar23 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  23 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share23 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:330px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options23 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 375px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover23 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  23 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+.btn-guardar24 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  24 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share24 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:210px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options24 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 255px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover24 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  24 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar25 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  25 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share25 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:265px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options25 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover25 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  25 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar26 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  26 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share26 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:390px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options26 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 435px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover26 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  26 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar27 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  27 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share27 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:330px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options27 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 375px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover26 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  27 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar28 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  28 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share28 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:265px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options28 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover28 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  28 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar29 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  29 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share29 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top: 245px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options29 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 290px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover29 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  29 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar30 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  30 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share30 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:330px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options30 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 375px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover30 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  30 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar31 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  31 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share31 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:385px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options31 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 430px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover31 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  31 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar32 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  32 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share32 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:330px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options32 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 375px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover32 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  32 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar33 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  33 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share33 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:330px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options33 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 375px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover33 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  33 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar34 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  34 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share34 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:385px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options34 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 430px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover34 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  34 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar35 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  35 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share35 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:385px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options35 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 430px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover35 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  35 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar36 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  36 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share36 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:300px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options36 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 375px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover36 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  36 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar37 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  37 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share37 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:225px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options37 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 270px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover37 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  37 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar38 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  38 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share38 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:265px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options38 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover38 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  38 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+.btn-guardar39 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  39 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share39 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:210px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options39 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 255px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover39 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  39 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar40 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  40 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share40 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:245px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options40 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 290px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover40 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  40 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar41 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  41 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share41 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:210px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options41 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 255px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover41 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  41 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar42 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  42 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share42 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:335px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options42 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 380px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover42 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  42 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar43 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  43 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share43 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:150px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options43 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 195px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover43 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  43 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar44 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  44 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share44 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:230px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options44 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 275px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover44 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  44 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar45 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  45 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share45 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:230px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options45 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 275px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover45 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  45 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar46 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  46 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share46 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:320px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options46 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 365px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover46 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  46 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar47 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  47 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share47 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:360px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options47 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 405px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover47 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  47 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar48 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  48 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share48 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:250px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options48 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 295px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover48 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  48 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar49 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  49 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share49 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:230px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options49 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 275px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover49 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  49 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar50 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  50 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share50 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:230px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options50 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 275px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover50 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  50 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar51 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  51 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share51 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:95px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options51 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 140px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover51 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  51 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar52 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  52 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share52 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options52 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover52 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  52 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+.btn-guardar53 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  53 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share53 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:210px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options53 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 255px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover53 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  53 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar54 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  54 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share54 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options54 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover54 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  23 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar55 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  55 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share55 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options55 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover55 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  55 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar56 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  56 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share56 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options56 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 314px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover56 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  56 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar57 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  57 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share57 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:73px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options57 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 118px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover57 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  57 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+.btn-guardar58 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  58 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share58 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options58 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover58 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  58 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+.btn-guardar59 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  59 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share59 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options59 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover59 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  59 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar60 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  60 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share60 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options60 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover60 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  60 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar61 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  61 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share61 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options61 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover61 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  61 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar62 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  62 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share62 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options62 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover62 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  62 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar63 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  63 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share63 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options63 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover63 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  63 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+.btn-guardar64 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  64 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share64 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:95px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options64 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 140px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover64 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  64 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar65 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  65 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share65 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options65 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover65 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  65 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar66 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  66 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share66 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:245px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options66 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 290px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover66 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  66 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar67 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  67 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share67 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options67 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover67 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  67 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar68 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  68 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share68 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options68 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover68 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  68 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar69 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  69 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share69 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options69 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover69 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  69 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar70 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  70 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share70 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options70 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover70 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  70 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar71 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  71 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share71 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:230px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options71 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 275px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover71 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  71 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar72 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  72 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share72 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options72 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover72 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  72 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar73 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  73 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share73 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options73 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover73 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  73 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar74 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  74 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share74 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:65px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options74 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover74 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  74 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar75 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  75 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share75 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options75 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover75 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  75 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar76 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  76 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share76 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:80px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options76 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 125px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover76 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  76 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar77 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  77 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share77 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options77 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover77 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  77 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar78 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  78 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share78 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:95px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options78 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 140px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover78 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  78 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar79 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  79 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share79 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options79 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover79 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  79 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar80 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  80 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share80 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options80 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover80 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  80 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar81 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  81 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share81 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:50px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options81 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 95px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover81 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  81 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar82 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  82 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share82 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options82 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover82 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  82 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar83 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  83 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share83 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:155px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options83 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover83 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  83 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar84 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  84 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share84 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:95px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options84 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 140px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover84 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  84 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar85 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  85 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share85 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options85 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover85 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  85 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar86 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  86 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share86 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options86 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover86 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  86 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar87 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  87 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share87 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options87 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover87 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  87 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar88 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  88 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share88 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:270px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options88 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 315px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover88 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  88 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar89 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  89 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share89 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:75px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options89 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover89 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  89 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-guardar90 {
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  90 ---------------------   */
+    /*  ------------------           ---------------------   */
+
+
+    cursor: pointer;
+    background: rgb(240, 43, 43);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.btn-share90 {
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 160px;
+    top:300px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-options90 {
+    display: flex;
+
+    background: #d5d5d5e8;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+    position: absolute;
+    left: 200px;
+    top: 345px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.box-hover90 img{
+
+    width: 30px;
+    height: 30px;
+
+    /*  ------------------           ---------------------   */
+    /*  ------------------  image  90 ---------------------   */
+    /*  ------------------           ---------------------   */
+}
+
+
+
+
+
+
+
+
+
